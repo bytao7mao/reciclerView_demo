@@ -1,7 +1,7 @@
 <img align="top" width="500" src="listview_recycler.jpg" alt="ff" />
 
 "Inflation" is a term that refers to parsing XML and turning it into UI-oriented data structures.
-ex: setContentView(R.layout.main)
+ex: `setContentView(R.layout.main)`
 
 
 look here for tuts:
