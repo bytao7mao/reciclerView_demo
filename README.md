@@ -5,12 +5,10 @@
 
 To obtain a handle to it in your Activity, use the following snippet:
 
-1
-RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
-If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:
 
-1
-rv.setHasFixedSize(true);
+`RecyclerView rv = (RecyclerView)findViewById(R.id.rv);`
+If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:
+`rv.setHasFixedSize(true);`
 
 
 look here for tuts:
