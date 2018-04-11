@@ -3,6 +3,15 @@
 "Inflation" is a term that refers to parsing XML and turning it into UI-oriented data structures.
 </br>ex: `setContentView(R.layout.main)`
 
+To obtain a handle to it in your Activity, use the following snippet:
+
+1
+RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
+If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:
+
+1
+rv.setHasFixedSize(true);
+
 
 look here for tuts:
 https://www.androidhive.info/2016/01/android-working-with-recycler-view/
