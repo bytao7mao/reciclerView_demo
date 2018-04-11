@@ -7,7 +7,7 @@ To obtain a handle to it in your Activity, use the following snippet:
 
 
 `RecyclerView rv = (RecyclerView)findViewById(R.id.rv);`
-If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:
+If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:</br>
 `rv.setHasFixedSize(true);`
 
 
