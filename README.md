@@ -10,7 +10,7 @@ To obtain a handle to it in your Activity, use the following snippet:
 If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:</br>
 `rv.setHasFixedSize(true);`
 
-
+### Adapter
 `An adapter manages the data model and adapts it to the individual entries in the widget. It extends the RecyclerView.Adapter class and is assigned to the recycler view via the RecyclerView.setAdapter method. The input to the adapter of an recycler view can be any arbitrary Java objects. Based on this input the adapter must return the total number of items via its getItemCount() method.
 
 The adapter prepares the layout of the items by inflating the correct layout for the individual data elements. This work is done in the onCreateViewHolder method. It returns an object of type ViewHolder per visual entry in the recycler view.
@@ -19,6 +19,22 @@ This instance is used to access the views in the inflated layout. The onCreateVi
 
 Every visible entry in a recycler view is filled with the correct data model item by the adapter. Once a data item becomes visible, the adapter assigns this data to the individual widgets which he inflated earlier. This work in done in the onBindViewHolder method.
 
+
+
+
+
+
+
+</br>
+</br>
+
+
+
+
+
+
+### ViewHolder
+'ViewHolder design pattern is used to speed up rendering of your ListView - actually to make it work smoothly, findViewById is quite expensive (it does DOM parsing) when used each time a list item is rendered, it must traverse your layout hierarchy and also instantiate objects. Since lists can redraw its items quite frequently during scrolling such overhead might be substantial.
 
 look here for tuts:
 https://www.androidhive.info/2016/01/android-working-with-recycler-view/
