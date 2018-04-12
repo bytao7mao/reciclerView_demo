@@ -39,3 +39,5 @@ Every visible entry in a recycler view is filled with the correct data model ite
 look here for tuts:
 https://www.androidhive.info/2016/01/android-working-with-recycler-view/
 https://code.tutsplus.com/tutorials/getting-started-with-recyclerview-and-cardview-on-android--cms-23465
+
+another resource to learn it: https://www.survivingwithandroid.com/2016/09/android-recyclerview-tutorial.html
