@@ -17,7 +17,7 @@ The adapter prepares the layout of the items by inflating the correct layout for
 
 This instance is used to access the views in the inflated layout. The onCreateViewHolder method is only called then a new view must be created.
 
-Every visible entry in a recycler view is filled with the correct data model item by the adapter. Once a data item becomes visible, the adapter assigns this data to the individual widgets which he inflated earlier. This work in done in the onBindViewHolder method.'
+Every visible entry in a recycler view is filled with the correct data model item by the adapter. Once a data item becomes visible, the adapter assigns this data to the individual widgets which he inflated earlier. This work in done in the onBindViewHolder method.
 
 
 look here for tuts:
